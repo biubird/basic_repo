@@ -1,1 +1,18 @@
-I see dead people...
+$ cd desktop
+$ mkdir basic_repo
+$ cd basic_repo
+$ git init
+$ touch index.html
+$ touch styles.css
+$ touch command.txt
+$ git status
+$ git add .
+$ git commit -m”initial commit”
+— create repository in GitHub—
+$ push remote repository
+$ git push -u origin master
+— add changes to html, css, and txt—
+$ git status
+$ git add .
+$ git commit -m”adding changes”
+$ git push -u origin master
